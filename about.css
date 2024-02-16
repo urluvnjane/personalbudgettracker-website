@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(mountain.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.headerbox {
+    font-size: 40px; 
+    text-align: center;
+    padding-top: 10px; 
+    font-weight: bold;
+}
+
+.yow {
+    font-size: 30px; 
+    color: #ff7200;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.navbar {
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: 'Arial', sans-serif;
+}
+
+.menu {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.instructions-container {
+    Background-color: #fa7c06;
+    Padding: 20px;
+    margin-top: 2%;
+    Border-radius: 8px;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 380px;
+}
+
+p {
+    margin-bottom: 12px; 
+    font-family: 'Poppins', sans-serif;
+}
